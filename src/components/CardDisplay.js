@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import Card from "./card";
+import Cardset from "./card";
+import {Container} from "reactstrap";
 
 export default function CardDisplay({ limit }) {
   const [cardInfo, setCardInfo] = useState({});
@@ -27,14 +28,14 @@ export default function CardDisplay({ limit }) {
   }, {});
 
   return (
-    <div className="containter">
-      <Card
+    <Container>
+      <Cardset
         key={cardInfo.url}
         title={cardInfo.title}
         date={cardInfo.date}
         url={cardInfo.url}
         explanation={cardInfo.explanation}
       />
-    </div>
+    </Container>
   );
 }

@@ -1,14 +1,20 @@
 import React from "react";
+import { Card as Cardstyle} from "reactstrap";
+import {Container} from "reactstrap";
+import {CardTitle, CardSubtitle} from "reactstrap";
 
-const Card = props => {
+const Cardset = props => {
     return (
-        <div key={props.id}>
-          <img alt="NASA Random Pic of the Day" src={props.url} />
-          <h2>{props.title}</h2>
-          <h3>{props.date}</h3>
-          <p>{props.explanation}</p>
-        </div>
+      <Container key={props.id}>
+      <Cardstyle color="dark" className="text-white">
+        <h3>{props.date}</h3>
+        <h2>{props.title}</h2>
+        <img alt="Random NASA pic of the day" src={props.url} />
+        <hr></hr>
+        <CardSubtitle>{props.explanation}</CardSubtitle>
+      </Cardstyle>
+    </Container>
     );
 };
 
-export default Card;
+export default Cardset;

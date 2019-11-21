@@ -1,13 +1,14 @@
 import React from "react";
 import "./App.css";
 import CardDisplay from "./components/CardDisplay";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
     <div className="App">
       <h1>Random NASA Photo of the Day</h1>
       <hr></hr>
-      <CardDisplay />
+      <CardDisplay limit = {1}/>
     </div>
   );
 }

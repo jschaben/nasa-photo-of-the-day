@@ -2,6 +2,22 @@
   text-align: center;
 }
 
+.container {
+  width: 75px;
+}
+
+.card h2 {
+  margin: 25px;
+}
+
+img {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+  height: 65%;
+}
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
