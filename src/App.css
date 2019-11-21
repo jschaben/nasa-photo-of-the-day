@@ -5,7 +5,9 @@
 .container {
   width: 75px;
 }
-
+.Button {
+  width: 30px;
+}
 .card h2 {
   margin: 25px;
 }
