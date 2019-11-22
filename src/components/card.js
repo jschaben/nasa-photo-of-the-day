@@ -11,7 +11,7 @@ const Cardset = props => {
   return (
       <Container key={props.id}>
       <Cardstyle color="dark" className="text-white">
-        <h3>{props.date}</h3>
+        <CardTitle><h3>{props.date}</h3></CardTitle>
         <h2>{props.title}</h2>
         <Button onClick={refreshPage}> New Image </Button>
         <img alt="Random NASA pic of the day" src={props.url} />
