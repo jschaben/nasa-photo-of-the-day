@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  background-color: #282c34;
+}
+.App h1{
+  color: white;
 }
 
 /* .container {
