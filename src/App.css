@@ -2,14 +2,20 @@
   text-align: center;
 }
 
-.container {
-  width: 75px;
-}
-.Button {
-  width: 30px;
+/* .container {
+  width: 175px;
+} */
+.btn {
+  display: flex;
+  align-self: center;
+  width: 150px;
+  
 }
 .card h2 {
-  margin: 25px;
+  margin: 15px;
+}
+.card h3 {
+  margin: 15px;
 }
 
 img {
