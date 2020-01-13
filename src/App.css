@@ -1,5 +1,33 @@
 .App {
   text-align: center;
+  background-color: #282c34;
+}
+.App h1{
+  color: white;
+}
+
+/* .container {
+  width: 175px;
+} */
+.btn {
+  display: flex;
+  align-self: center;
+  width: 150px;
+  
+}
+.card h2 {
+  margin: 15px;
+}
+.card h3 {
+  margin: 15px;
+}
+
+img {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+  height: 65%;
 }
 
 .App-logo {
